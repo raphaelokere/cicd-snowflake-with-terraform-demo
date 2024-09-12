@@ -7,11 +7,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "snowflake-raphaelokere"
-    key            = "terraform-prod.tfstate"
-    region         = "us-east-1"
-    encrypt        = true
-    role_arn       = "arn:aws:iam::658108419956:role/snowflake"
+    bucket   = "snowflake-raphaelokere"
+    key      = "terraform-prod.tfstate"
+    region   = "us-east-1"
+    encrypt  = true
+    role_arn = "arn:aws:iam::658108419956:role/snowflake"
   }
 }
 
