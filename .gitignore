@@ -41,6 +41,7 @@ terraform.rc
 
 # Ignore public key files
 *.pub
+*.p8
 
 # Ignore private key files
 *.pem

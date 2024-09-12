@@ -46,5 +46,7 @@ jobs:
       - name: Terraform Apply
         id: apply
         run: terraform -chdir=./staging apply -auto-approve
+        timeout-minutes: 10
         env:
           TF_VAR_snowflake_private_key: ${{ secrets.SNOWFLAKE_PRIVATE_KEY }}
+        
