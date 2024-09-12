@@ -20,7 +20,7 @@ provider "snowflake" {
   account     = "YQB16430.us-east-1"
   role        = "ACCOUNTADMIN"
   private_key = var.snowflake_private_key
-  
+
 }
 
 module "snowflake_resources" {
